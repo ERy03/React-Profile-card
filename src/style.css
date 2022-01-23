@@ -9,13 +9,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Inter', sans-serif;
 }
+
   body, h1, h2, h3, p {
   margin: 0;
 }
+
 ul {
   padding: 0;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -27,4 +31,10 @@ a {
   width: 550px;
   text-align: center;
   justify-content: center;
+}
+
+.info > h1 {
+  font-size: 25px;
+  line-height: 30px;
+
 }
