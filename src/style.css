@@ -18,6 +18,7 @@ body {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 a {
@@ -148,4 +149,25 @@ a {
   line-height: 150%;
   color: #DCDCDC;
   margin-bottom: 42px;
+}
+
+/* footer */
+
+footer {
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  width: 317px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-sns {
+  font-size: 28px;
+  color: #918E9B;
 }
