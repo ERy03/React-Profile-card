@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-Hello
+Scrimba's "Learn React for Free" solo project
+
+![Screen Shot 2022-01-24 at 5 24 03](https://user-images.githubusercontent.com/76512208/150696702-2d541d9d-e361-49aa-8e2c-f6a38e1fc940.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
