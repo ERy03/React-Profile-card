@@ -61,10 +61,39 @@ a {
   letter-spacing: 0.6px;
 }
 
-.info-button-container > button {
+/* info section button */
+.info-button-container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.info-button-container > a> button {
   width: 115px;
   height: 34px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+  box-sizing: border-box;
+  padding-right: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
 
+.info-button-container >a > button:hover {
+  cursor: pointer;
+}
+
+.button-icon {
+  margin-right: 8px;
+}
+
+.linkedin-button{
+  background-color: #5093E2;
+  color: #FFFFFF;
+  border: 1px solid #5093E2;
+}
+
+.email-button {
+  border: 1px solid #D1D5DB;
 }
