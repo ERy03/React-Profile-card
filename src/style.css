@@ -46,6 +46,8 @@ a {
 
 .portrait-img {
   border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
 }
 
 .info > h1 {
