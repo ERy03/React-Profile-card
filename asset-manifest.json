@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Profile-card/static/css/main.7a970dfa.css",
+    "main.js": "/React-Profile-card/static/js/main.e8b74515.js",
+    "static/media/portrait.JPG": "/React-Profile-card/static/media/portrait.2555c4ba042b4eab2c9c.JPG",
+    "index.html": "/React-Profile-card/index.html",
+    "main.7a970dfa.css.map": "/React-Profile-card/static/css/main.7a970dfa.css.map",
+    "main.e8b74515.js.map": "/React-Profile-card/static/js/main.e8b74515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a970dfa.css",
+    "static/js/main.e8b74515.js"
+  ]
+}
