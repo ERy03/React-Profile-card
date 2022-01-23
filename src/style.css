@@ -197,3 +197,16 @@ footer li {
 .fab:hover {
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 600px) {
+
+  body {
+    margin-top: 80px;
+  }
+  .container {
+    background-color: #23252C;
+    height: 790px;
+    width: 350px;
+  }
+
+}
