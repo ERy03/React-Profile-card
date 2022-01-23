@@ -71,6 +71,11 @@ a {
   line-height: 150%;
   margin-top: 8.81px;
   letter-spacing: 0.6px;
+  transition: 0.3s;
+}
+
+.info > a:hover {
+  text-shadow: 1px 0 8px rgba(250, 255, 255, 0.8);
 }
 
 /* info section button */
@@ -89,11 +94,19 @@ a {
   box-sizing: border-box;
   padding-right: 8px;
   font-size: 14px;
-  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
 }
 
 .info-button-container >a > button:hover {
   cursor: pointer;
+  box-shadow: 0 0 8px rgba(250, 255, 255, 0.4);
 }
 
 .button-icon {
@@ -169,7 +182,18 @@ footer > ul {
   gap: 24px;
 }
 
-.footer-sns {
+footer li {
   font-size: 28px;
+}
+
+.footer-sns {
   color: #918E9B;
+}
+
+.fab{
+  transition: 0.3s;
+}
+
+.fab:hover {
+  color: #FFFFFF;
 }
