@@ -30,9 +30,18 @@ a {
   height: 868px;
   width: 550px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* info */
+
+.info {
+  background-color: #1A1B21;
+  width: 317px;
+}
 
 .portrait-img {
   border-radius: 10px 10px 0px 0px;
