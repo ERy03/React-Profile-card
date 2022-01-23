@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
       <Info />
       <About />
       <Interest />
